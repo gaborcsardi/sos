@@ -36,7 +36,6 @@ jobs:
       - name: Install additional LaTeX packages
         run: |
           tlmgr install fancyhdr pslatex grfext pgf palatino courier mathpazo
-          tlmgr list --only-installed
 
       - uses: r-lib/actions/setup-pandoc@v2
 
